@@ -1,0 +1,86 @@
+/* pages/map/map.wxss */
+.container{
+  min-height: 1206rpx;
+}
+/* 酒店详情 */
+.mapBox{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: #fff;
+  margin-bottom: 38rpx;
+}
+.titleBox{
+  overflow: hidden;
+  text-align: center;
+}
+.titleName{
+  display: inline-block;
+  margin:20rpx auto;
+  text-align: center;
+  font-size: 36rpx;
+  border-bottom: 8rpx solid #1360A0;
+  padding: 18rpx;
+}
+/* 基本信息 */
+.mapInfoBox{
+  width: 660rpx;
+  margin:0 auto;
+}
+.mapInfoTitle{
+  padding: 14rpx 0;
+  font-size: 30rpx;
+  overflow: hidden;
+}
+/* 时间地点贴士 */
+image{
+  width: 28rpx;
+  height: 28rpx;
+  float: left;
+  overflow: hidden;
+  margin-top: 4rpx;
+  margin-right: 18rpx;
+}
+.basicForm{
+  font-size: 26rpx;
+  overflow: hidden;
+  margin: 15rpx auto;
+}
+.formL,.formR{
+  float: left;
+  overflow: hidden;
+}
+.formR{
+  margin-left: 16rpx;
+  max-width: 538rpx;        
+}
+
+/* 位置信息 */
+.mapBtnBox{
+  float: right;
+  overflow: hidden;
+}
+.mapBtn{
+  float: left;
+  overflow: hidden;
+  font-size: 26rpx;
+  background-color: #1360A0;
+  color: #fff;
+  margin-left: 36rpx;
+  padding: 0 40rpx;
+  border-radius: 30rpx;
+}
+.floatBox{
+  overflow: hidden;
+}
+.floatBox .mapInfoTitle{
+  float: left;
+  overflow: hidden;
+}
+.map{
+  width: 652rpx;
+  height: 564rpx;
+  overflow: hidden;
+  margin:26rpx auto 40rpx auto;
+  border: 1rpx solid #1360A0;
+}

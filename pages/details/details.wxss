@@ -1,0 +1,109 @@
+/**index.wxss**/
+/* 最外面的盒子 */
+.oBox{
+  width: 100%;
+  height: auto;
+  margin-bottom: 25rpx;
+  background-color: #fff;
+  overflow: hidden;
+}
+/* 头图部分 */
+.imgBox{
+  width: 100%;
+  height: 240rpx;
+  position: relative;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+.imgTitle{
+  margin: 40rpx 150rpx;
+}
+.imgText,.imgTime,.imgTitle{
+  width: 460rpx;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  color: #fff;
+}
+.imgText{
+  margin: 160rpx 150rpx 0rpx 150rpx;
+  font-size: 20rpx;
+}
+.imgTime{
+  margin: 190rpx 150rpx 0rpx 150rpx;
+  font-size: 20rpx;
+}
+/* 按钮部分 */
+.imgBtn{
+  width: 100%;
+  height: auto;
+  padding: 14rpx;
+  overflow: hidden;
+}
+.selectedBtn,.notChooseBtn{
+  width: 210rpx;
+  height: 50rpx;
+  margin: 14rpx;
+  float: left;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 22rpx;
+  border-radius: 50rpx;
+}
+.selectedBtn{
+  background-color: #1360A0;
+  color: #fff;
+}
+.notChooseBtn{
+  background-color: #E8E8E8;
+  color: #434343;
+}
+.dwIcon{
+  width: 24rpx;
+  height: 24rpx;
+  line-height: 30rpx;
+}
+/* 乐跑手册 */
+.lpscBox{
+  height: auto;
+  margin: 32rpx 42rpx 16rpx 42rpx;
+  overflow: hidden;
+}
+.lpscTitle{
+  float: left;
+  font-size: 28rpx;
+}
+.searchBtn{
+  float:right;
+  font-size: 28rpx;
+}
+/* list */
+.listBox{
+  height: auto;
+  margin:16rpx 42rpx 12rpx;
+  overflow: hidden;
+}
+.list{
+  width: 100%;
+  height: 146rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+  position: relative;
+  margin: 14rpx auto;
+}
+.listImg{
+  width: 100%;
+  height: 100%;
+  border-radius: 20rpx;
+}
+.listTitle{
+  width: 100%;
+  height: 146rpx;
+  text-align: center;
+  line-height: 146rpx;
+  color: #fff;
+  position: absolute;
+  top: 0;
+}

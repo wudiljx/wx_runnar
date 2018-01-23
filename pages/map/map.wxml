@@ -1,0 +1,77 @@
+<!--pages/map/map.wxml-->
+<view class='container'>
+  <!-- 酒店信息 -->
+  <view class='mapBox'>
+    <!-- 酒店名称 -->
+    <view class='titleBox'>
+      <view class='titleName'>
+        希尔顿酒店
+      </view>
+    </view>
+    <!-- 基本信息 -->
+    <view class='mapInfoBox'>
+      <view class="mapInfoTitle">基本信息</view>
+      <view class='basicForm'>
+        <view class='formL'><image src='/images/time.png'></image>时间:</view>
+        <view class='formR'>09.31-09.30</view>
+      </view>
+      <view class='basicForm'>
+        <view class='formL'><image src='/images/didian.png'></image>地点:</view>
+        <view class='formR'>芝加哥博物馆</view>
+      </view>
+      <view class='basicForm'>
+        <view class='formL'><image src='/images/tieshi.png'></image>贴士:</view>
+        <view class='formR'>因博物馆领物人员较多，请选择适当时间出行。因博物馆领物人员较多，请选择适当时间出行。</view>
+      </view>
+    </view>
+    <!-- 位置信息 -->  
+    <view class='mapInfoBox'>
+      <view class='floatBox'> <!-- 用来处理浮动 -->
+        <view class="mapInfoTitle">位置信息</view>
+        <view class='mapBtnBox'>
+          <button class='mapBtn'>导航</button>
+          <button class='mapBtn' open-type="share">分享</button>
+        </view>
+      </view>
+      <view class='map'>
+        MAP
+      </view>
+    </view>
+  </view>
+  <!-- 酒店信息 -->
+  <view class='mapBox'>
+    <!-- 酒店名称 -->
+    <view class='titleBox'>
+      <view class='titleName'>希尔顿酒店</view>
+    </view>
+    <!-- 基本信息 -->
+    <view class='mapInfoBox'>
+      <view class="mapInfoTitle">基本信息</view>
+      <view class='basicForm'>
+        <view class='formL'><image src='/images/time.png'></image>时间:</view>
+        <view class='formR'>09.31-09.30</view>
+      </view>
+      <view class='basicForm'>
+        <view class='formL'><image src='/images/didian.png'></image>地点:</view>
+        <view class='formR'>芝加哥博物馆</view>
+      </view>
+      <view class='basicForm'>
+        <view class='formL'><image src='/images/tieshi.png'></image>贴士:</view>
+        <view class='formR'>因博物馆领物人员较多，请选择适当时间出行。因博物馆领物人员较多，请选择适当时间出行。</view>
+      </view>
+    </view>
+    <!-- 位置信息 -->  
+    <view class='mapInfoBox'>
+      <view class='floatBox'> <!-- 用来处理浮动 -->
+        <view class="mapInfoTitle">位置信息</view>
+        <view class='mapBtnBox'>
+          <view class='mapBtn'>导航</view>
+          <view class='mapBtn'>分享</view>
+        </view>
+      </view>
+      <view class='map'>
+        MAP
+      </view>
+    </view>
+  </view>
+</view>

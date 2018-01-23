@@ -1,0 +1,56 @@
+<!-- index -->
+<!-- 头图 + 按钮 -->
+<view class='container'>
+  <view class='oBox'>
+    <!-- 头图 -->
+    <view class='imgBox'>
+      <image class='img' src='/images/test.png'></image>
+      <view class="imgTitle">2018芝加哥马拉松芝加哥马拉松芝加哥马拉松</view>
+      <view class='imgText'>美国，芝加哥市</view>
+      <view class='imgTime'>2017.09.27 8:00AM</view>
+    </view>
+    <!-- 按钮 -->
+    <view class='imgBtn'>
+      <view class='selectedBtn' bindtap='goMap'>
+        <image class='dwIcon' src='/images/dwIcon.png'></image>
+        博览会位置
+      </view>
+      <view class='selectedBtn'>
+        <image class='dwIcon' src='/images/dwIcon.png'></image>
+        博览会位置
+      </view>
+      <view class='selectedBtn'>
+        <image class='dwIcon' src='/images/dwIcon.png'></image>
+        博览会位置
+      </view>
+      <view class='notChooseBtn'>
+        博览会位置
+      </view><view class='notChooseBtn'>
+        博览会位置
+      </view><view class='notChooseBtn'>
+        博览会位置
+      </view>
+    </view>
+  </view>
+  <!-- 乐跑手册 -->
+  <view class='oBox'>
+    <view class='lpscBox'>
+      <view class="lpscTitle">乐跑手册</view>
+      <view class='searchBtn' bindtap='openSearch'><icon type='search' size='14' color='#000'></icon> 搜索</view>
+    </view>
+    <view class='listBox'>
+      <view class='list'>
+        <image class="listImg" src='/images/test.png'></image>
+        <view class='listTitle'>行程安排</view>
+      </view>
+      <view class='list'>
+        <image class="listImg" src='/images/test.png'></image>
+        <view class='listTitle'>行程安排</view>
+      </view>
+      <view class='list'>
+        <image class="listImg" src='/images/test.png'></image>
+        <view class='listTitle'>行程安排</view>
+      </view>
+    </view>
+  </view>
+</view>

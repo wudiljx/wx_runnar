@@ -1,0 +1,83 @@
+/* pages/index/index.wxss */
+.container{
+  min-height: 1190rpx;
+  margin-bottom: 84rpx;
+  overflow: hidden;
+}
+/* 书架 */
+.listBox{
+  width: 654rpx;
+  height: 558rpx;
+  margin: 0 auto;
+  position: relative;
+}
+/* 书 */
+.booksBox{
+  width: 100%;
+  overflow: hidden;
+}
+.bookImg{
+  width: 100%;
+}
+.listBooks{
+  width: 256rpx;
+  height: 414rpx; 
+  margin:28rpx 35rpx 0rpx 35rpx;
+  display: inline-block;
+  box-shadow: 0rpx 5rpx 170rpx #e0e0e0;
+  background-color: #132047;
+  position:relative;
+}
+.listBooks image{
+  width: 256rpx;
+  height: 414rpx
+}
+.jiazi{
+  position: absolute;
+  z-index:1000;
+  left: -35rpx;
+  bottom:-36rpx;
+  width: 654rpx;
+  height: 18rpx;
+  background-color: #fff;
+  border-bottom-left-radius: 15rpx;
+  border-bottom-right-radius: 15rpx;
+  box-shadow: 0rpx 10rpx 10rpx #d4d4d4;
+  margin-bottom: 18rpx;
+}
+/* 书名 */
+.listBooksName{
+  display: inline-block;
+  width: 256rpx;
+  min-height: 88rpx;
+  text-align: center;
+  font-size: 24rpx;
+  overflow: hidden;
+  color: #135F9F;
+  margin-top: 30rpx;
+}
+
+/* 了跑手册 */
+.lpscBox{
+  width: 100%;
+  height: 84rpx;
+  background-color: #fff;
+  color: #1360A0;
+  line-height: 84rpx;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 10rpx 10rpx 5rpx #000;
+  font-weight: 500;
+  border-top-right-radius: 10rpx;
+  border-top-left-radius: 10rpx;
+  overflow: hidden;
+}
+.sc{
+  width: 60rpx;
+  height: 60rpx;
+  float:left;
+  margin-left:274rpx;
+  margin-top:13rpx;
+  margin-right:15rpx;
+
+}

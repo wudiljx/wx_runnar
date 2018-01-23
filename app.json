@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/search/search",
+    "pages/map/map",
+    "pages/details/details"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "跑哪儿",
+    "navigationBarTextStyle":"#fff",
+    "backgroundColor": "#eeeeee"
+  }
+}

@@ -1,0 +1,19 @@
+<!-- search -->
+<view class='container'>
+  <view class="searchBox">
+    <icon type='search' size='16' color='#000' bindtap='searchBtn'></icon>
+    <input placeholder="搜索" bindinput='inputVal' value='{{inputVal}}'/>
+    <icon type="cancel" size='16' color='#000' style='display:{{showView}}' bindtap='clearBtn'></icon>
+  </view>
+  <view style='display:{{showView2}}'>
+    <view class='searchTextBox'>
+      含有<text class='searchText'>“{{ test }}”</text>的内容页面有：
+    </view>
+  </view>
+  <view class='searchList'>
+    <view class='searchContent'>
+      <text class='contentText'>官方音乐会-音乐会信息</text>
+      <image class='goImg' src='/images/right.png'></image>
+    </view>
+  </view>
+</view>

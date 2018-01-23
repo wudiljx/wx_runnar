@@ -1,0 +1,61 @@
+/* pages/search/search.wxss */
+.container{
+  min-height: 1206rpx;
+}
+.searchBox{
+  margin:0 16rpx;
+  padding-top: 24rpx;
+  border-bottom: 2rpx solid #1360A0;
+  overflow: hidden;
+}
+input{
+  font-size: 28rpx;
+  width: 590rpx;
+  color: #434343;
+  float: left;
+  overflow: hidden;
+}
+icon{
+  float: left;
+  overflow: hidden;
+  margin: 12rpx;
+}
+.searchTextBoxShow{
+  display: block;
+}
+.searchTextBoxHide{
+  display:none
+}
+.searchTextBox{
+  margin:30rpx 15rpx;
+  font-size:24rpx;
+  padding:10rpx 22rpx;
+}
+.searchText{
+  color: #1360A0;
+}
+/* 搜索到的内容 */
+.searchList{
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+.searchContent{
+  display: none;
+  height: 84rpx;
+  line-height: 84rpx;
+  width: 688rpx;
+  margin:0 auto;
+  border-bottom: 2rpx solid #E8E8E8;
+}
+.contentText{
+  color:  #1360A0;
+  font-size: 24rpx;
+}
+.goImg{
+  width:45rpx;
+  height:45rpx;
+  float:right;
+  margin-top:20rpx;
+}

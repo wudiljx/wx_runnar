@@ -1,0 +1,14 @@
+<!--pages/index/index.wxml-->
+<view class='container'>
+  <view class='listBox'>
+    <view class='listBooks' bindtap='openBook' wx:for="{{listData}}">
+        <image src='{{item.matchHeadUrl}}'></image>
+         <view class='listBooksName'>{{item.event_name}}</view>
+         <view class='jiazi' wx:if="{{item.zshow}}"></view>
+      </view>
+  </view>
+</view>
+<view class='lpscBox'>
+  <image class='sc' src='/images/sc.png'></image>
+  乐跑手册
+</view>
